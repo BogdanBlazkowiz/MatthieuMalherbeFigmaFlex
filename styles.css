@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap');
+.frame {
+    width: 100vw;
+    height: 100vw;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    display:flex;
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    background: #2D4480;
+}
+
+
+.whitecard {
+    position:relative;
+    width: 288px;
+    height: 469px;
+    border-radius: 27px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+
+.title {
+    position: absolute;
+    width: 98px;
+    height: 36px;
+    top: -1px;
+    left: 95px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    font-family: Noto Sans Symbols;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #292929;
+}
+
+.features {
+    position: absolute;
+    display:flex;
+    width: 176px;
+    height: 162px;
+    top:102px;
+    left:40px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
